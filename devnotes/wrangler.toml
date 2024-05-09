@@ -1,0 +1,9 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "wrangler-cloudflare-pages"
+compatibility_date = "2024-05-02"
+pages_build_output_dir = ".svelte-kit/cloudflare"
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "prod-devnotes"
+database_id = "c4dc7165-b419-4c8e-9059-2e7538fcbcfe"
