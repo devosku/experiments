@@ -4,9 +4,11 @@ This is a guide and an example of setting up a Flask project with pyenv as
 manager for your Python versions and Poetry as manager of your Python
 dependencies in the project.
 
-The repository also sets up some formatter
+The repository also contains information about setting formatters and linters
+for Python development and runs the development server in Docker.
 
-This guide is made for Ubuntu or WSL2 running Ubuntu.
+This guide is made for Ubuntu or WSL2 running Ubuntu and also requires that
+you have Docker and Docker Compose installed.
 
 ## Install [pyenv](https://github.com/pyenv/pyenv)
 

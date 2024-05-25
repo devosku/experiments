@@ -28,3 +28,7 @@ Experiments with different web development frameworks.
 
 - [DevNotes - Example of full-stack Cloudflare Pages app with SvelteKit](./devnotes)
     - Uses Single sign-on with Google and Cloudflare D1 Database
+
+- [Flask app example](./devnotes)
+    - An example of setting a development environment for a Flask app
+    - Uses docker compose for running the development server
