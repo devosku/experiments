@@ -1,0 +1,17 @@
+services:
+  backend:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - REDIS_HOST=redis
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /src
+        - action: rebuild
+          path: poetry.lock
+
+  redis:
+    image: "redis:alpine"
